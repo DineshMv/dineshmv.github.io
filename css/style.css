@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html, body{
     font-size: 100%;
 	background:	#fff;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', Helvetica;
 }
 body a{
 	transition: 0.5s all ease;
