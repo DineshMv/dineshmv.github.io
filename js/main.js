@@ -22,7 +22,12 @@
 
             $('.site-main-menu').on("click", "a", function (e) {
                 portfolio_grid.shuffle('update');
+                
+                
             });
+            
+            document.getElementById("Portfolio_redirect").onclick = function() {
+        window.open("https://dineshmv3.wordpress.com", '_blank');
 
 
             portfolio_filter.on("click", ".filter", function (e) {
@@ -36,6 +41,7 @@
         }
     }
     // /Portfolio subpage filters
+    
 
     // Contact form validator
     $(function () {
